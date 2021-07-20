@@ -61,4 +61,9 @@ element = WebDriverWait(driver, 30).until(
 """
 options.add_argument('--headless') # headless
 options.add_argument('--kiosk') # maximize window
+options.add_argument('--disable-gpu');
+options.add_argument('--disable-extensions');
+options.add_argument('--proxy-server="direct://"');
+options.add_argument('--proxy-bypass-list=*');
+options.add_argument('--start-maximized');
 """

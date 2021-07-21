@@ -1,4 +1,7 @@
 # python-scraping
+
+Crawling -> Selenium, Scraping -> Beautiful Soup
+
 ## selenium
 ### STEP1
 
